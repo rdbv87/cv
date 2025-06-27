@@ -209,3 +209,18 @@ nav {
   font-size: 1.2rem;
   margin-bottom: 0.4rem;
 }
+
+.boton {
+  display: inline-block;
+  background-color: var(--verde-claro);
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.boton:hover {
+  background-color: var(--verde-oscuro);
+}
